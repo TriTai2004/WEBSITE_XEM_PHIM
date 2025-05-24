@@ -1,0 +1,69 @@
+.main{
+    background: #100028;
+    height: 100vh;
+    position: relative;
+    .form{
+        margin: 0 auto;
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 30px 30px 20px;
+        border-radius: 10px;
+        .home{
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: white;
+        }
+        h1{
+            font-size: 30px;
+            margin: 0 auto 20px;
+            text-align: center;
+            color: white;
+
+        }
+
+        label{
+            color: white;
+        }
+        button{
+            background: transparent;
+            color: white;
+            width: 100%;
+            padding: 5px 0;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            background: #00bfe7;
+            transition: all .5s;
+            &:hover{
+                opacity: .8;
+            }
+        }
+        .mb-5{
+            text-align: end;
+            a{
+                color: white;
+                transition: all 5s;
+                &:hover{
+                    border-bottom: 1px solid #fff;
+                }
+            }
+        }
+        .mb-3:last-child{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: white;
+            a{
+                color: white;
+                transition: all .5s;
+                &:hover{
+                    border-bottom: 1px solid #fff;
+                }
+            }
+        }
+    }
+}

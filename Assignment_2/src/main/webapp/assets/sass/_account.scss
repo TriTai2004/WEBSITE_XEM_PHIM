@@ -1,0 +1,34 @@
+.account{
+    background: #100010;
+    height: 100vh;
+
+    .container{
+        padding-top: 100px;
+    }
+    form{
+        padding: 50px;
+        color: white;
+    }
+    ul{
+        padding-top: 55px;
+
+        li{
+            list-style: none;
+            padding: 5px 0;
+            a{
+                color: white;
+            }
+            .active{
+                color: #00bfe7;
+            }
+        }
+    }
+    button{
+        background: #00bfe7;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    
+}
